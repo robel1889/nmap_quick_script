@@ -28,7 +28,7 @@ else:
     else: 
         print("\n[+] Nmap directory already exists...\n")
             
-    # Run all three nmap scans and story results in all file formats.
+    # Run all three nmap scans and store results in all file formats (.nmap, .xml and .gnmap).
     print("\n[+] Enumerating hosts-up!...\n")
     os.system('nmap -sP -Pn -oA nmap/hosts_up -iL %s > /dev/null' % (sys.argv[1]))
 
