@@ -1,5 +1,5 @@
 # nmap_quick_script
-A quick nmap script written in python to automate daily scanning tasks at work.
+A short nmap script written in Python3 that I use to automate daily nmap scans for work.
 
 Usage: python3 nmap_quick_script.py ip_list_file
 
